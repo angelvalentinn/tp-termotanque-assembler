@@ -1,0 +1,76 @@
+MPLINK 4.31, Linker
+Linker Map File - Created Sat Oct 28 01:22:32 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000ce
+                   .cinit    romdata   0x000067    program   0x000004
+        .config_2007_TP.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000068      
+                            0x002007    0x002007      
+            106 out of 2183 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            CALENTAR_AGUA   0x000019    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          CANILLA_ABIERTA   0x000023    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+     CANILLA_ABIERTA_LOOP   0x000024    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+              CARGAR_AGUA   0x000011    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+            DEC_AGUA_LOOP   0x000029    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                DELAY_1MS   0x00003d    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                 DELAY_1S   0x000049    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+              DELAY_250MS   0x000043    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                 DELAY_5S   0x00004f    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+            INC_LOOP_AGUA   0x000016    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+            INC_LOOP_TEMP   0x000020    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+    INICIALIZAR_VARIABLES   0x000055    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                   INICIO   0x000002    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                     LOOP   0x00003f    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                   LOOP_2   0x000045    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                   LOOP_3   0x00004b    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                   LOOP_4   0x000051    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+ PRENDER_LED_INTERMITENTE   0x000037    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          PRENDER_LED_RB0   0x00002b    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          PRENDER_LED_RB1   0x00002e    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          PRENDER_LED_RB2   0x000031    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          PRENDER_LED_RB3   0x000034    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000002    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+              CARGAR_AGUA   0x000011    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+            INC_LOOP_AGUA   0x000016    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+            CALENTAR_AGUA   0x000019    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+            INC_LOOP_TEMP   0x000020    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          CANILLA_ABIERTA   0x000023    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+     CANILLA_ABIERTA_LOOP   0x000024    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+            DEC_AGUA_LOOP   0x000029    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          PRENDER_LED_RB0   0x00002b    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          PRENDER_LED_RB1   0x00002e    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          PRENDER_LED_RB2   0x000031    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+          PRENDER_LED_RB3   0x000034    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+ PRENDER_LED_INTERMITENTE   0x000037    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                DELAY_1MS   0x00003d    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                     LOOP   0x00003f    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+              DELAY_250MS   0x000043    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                   LOOP_2   0x000045    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                 DELAY_1S   0x000049    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                   LOOP_3   0x00004b    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                 DELAY_5S   0x00004f    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+                   LOOP_4   0x000051    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+    INICIALIZAR_VARIABLES   0x000055    program     static C:\Users\USUARIO\Desktop\tp-arquitectura\tp.asm
+
+
